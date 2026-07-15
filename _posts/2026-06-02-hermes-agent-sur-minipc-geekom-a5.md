@@ -1,7 +1,7 @@
 ---
 title: "J'ai voulu faire tourner un LLM local sur un mini PC. Ça n'a pas marché."
-permalink: /2026/06/02/llm-local-minipc-crash-test/
 tags: [hermes-agent, debian, llm-local]
+permalink: /llm-local-minipc-crash-test/
 ---
 
 Je me suis offert un **GEEKOM A5 Mini PC** avec un objectif ambitieux : faire tourner un modèle local pour mon agent Hermes, pour des raisons de sécurité et de confidentialité.

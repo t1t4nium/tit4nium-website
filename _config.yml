@@ -43,7 +43,7 @@ social:
     - *masto_url
     - *x_url
 
-permalink: /:year/:month/:day/:title/
+permalink: /:title/
 markdown: kramdown
 kramdown:
   syntax_highlighter: rouge

@@ -1,7 +1,7 @@
 ---
 title: "J'ai transformé un vieux laptop en agent IA autonome avec Hermes"
-permalink: /2026/05/06/vieux-laptop-agent-ia-autonome/
 tags: [hermes-agent, debian, auto-hebergement]
+permalink: /vieux-laptop-agent-ia-autonome/
 ---
 
 J'avais un vieil HP EliteBook 820 G1 qui prenait la poussière. Core i5 de 2014, 8 Go de RAM, SSD 240 Go. Rien d'excitant.
