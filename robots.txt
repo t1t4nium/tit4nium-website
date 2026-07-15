@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://tilde.club/~tit4nium/sitemap.xml

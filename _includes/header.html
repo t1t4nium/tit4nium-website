@@ -1,0 +1,38 @@
+<header class="header">
+  <nav class="nav">
+    <a href="{% link index.md %}" class="nav-brand">
+      <img src="{% link assets/images/avatar.jpeg %}" alt="Avatar" class="nav-avatar" width="32" height="32">
+      <span class="nav-title">{{ site.title }}</span>
+      <span class="nav-prompt">:~$</span>
+    </a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+    <label for="nav-toggle" class="nav-hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </label>
+    <div class="nav-links">
+      {% assign nav_pages = site.pages | where_exp: "p", "p.nav_order" | sort: "nav_order" %}
+      {% for p in nav_pages %}
+      <a href="{{ p.url | relative_url }}">/{{ p.nav_title }}</a>
+      {% endfor %}
+      <a href="{{ site.feed.path | relative_url }}">/rss</a>
+      {% if site.social_links %}
+      <div class="nav-social">
+        {% for link in site.social_links %}
+        <a href="{{ link.url }}" target="_blank" rel="me" aria-label="{{ link.label }}">
+          {% case link.platform %}
+          {% when "mastodon" %}
+          <img src="{% link assets/icons/mastodon.svg %}" alt="Mastodon" width="18" height="18">
+          {% when "github" %}
+          <img src="{% link assets/icons/github.svg %}" alt="GitHub" width="18" height="18">
+          {% when "twitter" %}
+          <img src="{% link assets/icons/twitter.svg %}" alt="X (Twitter)" width="18" height="18">
+          {% else %}
+          <img src="{% link assets/icons/globe.svg %}" width="18" height="18">
+          {% endcase %}
+        </a>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </nav>
+</header>

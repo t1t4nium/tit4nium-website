@@ -1,0 +1,90 @@
+name: &name tit4nium
+avatar: &avatar /assets/images/avatar.jpeg
+gh_user: &gh_user t1t4nium
+gh_url: &gh_url https://github.com/t1t4nium
+masto_url: &masto_url https://piaille.fr/@tit4nium
+x_user: &x_user tit4nium8
+x_url: &x_url https://x.com/tit4nium8
+
+title: *name
+tagline: journal de bord technique
+description: >
+  Retours d'experience sur les agents IA/LLM, Linux/FreeBSD, logiciels open
+  source et securite informatique. Carnet de bord d'un ingenieur qui bidouille,
+  casse, repare et apprend.
+url: https://tilde.club
+baseurl: /~tit4nium/
+lang: fr_FR
+timezone: Europe/Paris
+encoding: UTF-8
+
+author:
+  name: *name
+  uri: 
+  avatar: *avatar
+  twitter: *x_user
+
+mastodon:
+  username: *name
+  instance: piaille.fr
+
+github:
+  username: *gh_user
+
+twitter:
+  username: *x_user
+  card: summary_large_image
+
+logo: *avatar
+social:
+  name: *name
+  links:
+    - *gh_url
+    - *masto_url
+    - *x_url
+
+permalink: /:year/:month/:day/:title/
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+feed:
+  path: /rss.xml
+
+exclude:
+  - AGENTS.md
+  - Gemfile
+  - Gemfile.lock
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      image: /assets/images/og-default.png
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+
+social_links:
+  - platform: github
+    url: *gh_url
+    label: GitHub
+  - platform: mastodon
+    url: *masto_url
+    label: Mastodon
+  - platform: twitter
+    url: *x_url
+    label: X (Twitter)
