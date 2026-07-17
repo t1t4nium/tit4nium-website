@@ -60,7 +60,7 @@ plugins:
   - jekyll-feed
 
 feed:
-  path: /rss.xml
+  path: /blog/rss.xml
 
 exclude:
   - AGENTS.md
