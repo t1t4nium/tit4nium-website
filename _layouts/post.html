@@ -8,7 +8,7 @@ layout: default
     {% if page.tags %}
     <div class="post-tags">
       {% for tag in page.tags %}
-      <a href="{{ site.baseurl }}/blog/tags/#{{ tag }}" class="tag">{{ tag }}</a>
+      <a href="{% link tags.md %}#{{ tag }}" class="tag">{{ tag }}</a>
       {% endfor %}
     </div>
     {% endif %}
