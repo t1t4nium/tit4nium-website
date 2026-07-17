@@ -43,7 +43,7 @@ social:
     - *masto_url
     - *x_url
 
-permalink: /:title/
+permalink: /blog/:title/
 markdown: kramdown
 kramdown:
   syntax_highlighter: rouge
