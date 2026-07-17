@@ -3,7 +3,7 @@ layout: page
 nav_title: tags
 nav_order: 3
 title: /tags
-permalink: /tags/
+permalink: /blog/tags/
 description: "Archives par thème technique : agent IA, Linux, open source, privacy."
 ---
 
