@@ -12,8 +12,8 @@ description: >
   Retours d'experience sur les agents IA/LLM, Linux/FreeBSD, logiciels open
   source et securite informatique. Carnet de bord d'un ingenieur qui bidouille,
   casse, repare et apprend.
-url: https://tilde.club
-baseurl: /~tit4nium/
+url: https://tit4nium.fr
+baseurl: /
 lang: fr_FR
 timezone: Europe/Paris
 encoding: UTF-8

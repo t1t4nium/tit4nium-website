@@ -1,5 +1,5 @@
 # tit4nium's website
 
-Ce repository contient les sources de mon site personnel.
+Ce repository contient les sources de mon site.
 
-URL : https://tilde.club/~tit4nium/
+URL : https://tit4nium.fr
