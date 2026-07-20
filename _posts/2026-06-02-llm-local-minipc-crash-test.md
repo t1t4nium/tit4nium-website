@@ -12,7 +12,7 @@ Spoiler : ça n'a pas marché comme prévu. Voici pourquoi.
 
 ---
 
-### Première tentative : Ollama
+## Première tentative : Ollama
 
 J'ai commencé par installer [Ollama](https://ollama.com), comme tout le monde.
 
@@ -37,13 +37,13 @@ Rapidement, quatre obstacles se sont dressés :
 | mistral-small:22b | 64 Go | Contexte 128K OK mais lent |
 | llama3.3:70b | 64 Go | Trop lent pour usage temps réel |
 
-### Le détour par llama.cpp
+## Le détour par llama.cpp
 
 J'ai fini par installer [llama.cpp server](https://github.com/ggml-org/llama.cpp) directement sur le GEEKOM pour contourner le bug Ollama. Compilation CPU-only (pas de GPU). J'ai téléchargé un Carnice 9B en Q4_K_M (~5,6 Go).
 
 **Ça répondait. Mais pas dans des délais raisonnables.** Sans GPU, l'inférence se traînait à 1-3 tokens par seconde. Une requête avec outils prenait plusieurs minutes. Trop lent pour un usage interactif, mais ça prouvait que le concept tenait.
 
-### La conclusion
+## La conclusion
 
 Le GEEKOM A5 a été recyclé en station de travail. Pour faire tourner Hermes Agent avec un modèle cloud, il est parfait. Pour de l'inférence locale, il a buté sur la même limite que mon premier setup : **pas de GPU dédié.**
 
