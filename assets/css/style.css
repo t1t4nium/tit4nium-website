@@ -288,7 +288,8 @@ main {
 
 .post {
   width: 100%;
-  max-width: var(--content-width);
+  max-width: var(--content-wide);
+  padding: 3rem 1.5rem 6rem;
 }
 
 /***** Post header *****/
