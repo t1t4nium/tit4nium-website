@@ -1,6 +1,6 @@
 ---
 title: "Hermes Agent News Digest #1"
-tags: [hermes-agent, news-digest, mcp]
+tags: [hermes-agent, news-digest]
 ---
 
 Deux annonces de taille du côté de Nous Research ce week-end, sans nouvelle release taguée mais avec pas mal de mouvement sur la branche main.
