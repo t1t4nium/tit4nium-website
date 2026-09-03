@@ -54,4 +54,4 @@ Le point qui mérite attention : si une machine tourne avec les approbations dé
 
 ## Liens
 
-- [Documentation du setup](https://github.com/t1t4nium/hermes-agent-doc/blob/main/a2a-agents-tunnel-ssh.md)
+- [Documentation du setup](https://github.com/t1t4nium/hermes-agent-doc/blob/main/reseau/a2a-agents-tunnel-ssh.md)
