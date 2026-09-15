@@ -9,9 +9,9 @@ x_url: &x_url https://x.com/tit4nium8
 title: *name
 tagline: journal de bord technique
 description: >
-  Retours d'experience sur les agents IA/LLM, Linux/FreeBSD, logiciels open
-  source et securite informatique. Carnet de bord d'un ingenieur qui bidouille,
-  casse, repare et apprend.
+  Carnet de bord de tit4nium : exploration, revues techniques et retours
+  d'expérience sur l'IA et ses agents, les logiciels open source et la sécurité
+  informatique.
 url: https://tit4nium.fr
 baseurl: /
 lang: fr_FR
@@ -63,7 +63,6 @@ feed:
   path: /blog/rss.xml
 
 exclude:
-  - AGENTS.md
   - README.md
   - Gemfile
   - Gemfile.lock
