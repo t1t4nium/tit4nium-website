@@ -1,6 +1,6 @@
 ---
 title: "Migrer Debian 12 vers 13 : ce que la partition /boot m'a appris"
-tags: [debian, upgrade, sysadmin]
+tags: [debian, mise-a-jour, linux]
 ---
 
 Début 2026, j'ai migré mes machines de Debian 12 (bookworm) vers Debian 13

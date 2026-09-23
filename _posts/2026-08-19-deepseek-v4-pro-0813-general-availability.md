@@ -1,6 +1,6 @@
 ---
 title: "DeepSeek V4 Pro 0813 passe en GA : version épinglée, prix officiels, hausse annoncée"
-tags: [deepseek, llm, actualite]
+tags: [llm-deepseek, llm]
 ---
 
 Le 12 août 2026, DeepSeek a fait passer DeepSeek-V4-Pro en disponibilité générale sans annonce tapageuse : le modèle a été épinglé sur la page de prix officielle comme version servie derrière l'API `deepseek-v4-pro`, et OpenRouter a daté la liste du même jour. C'est une version pin, pas une nouvelle architecture. Trois choses en ressortent : les prix listés, un avertissement de hausse, et des poids désormais disponibles.

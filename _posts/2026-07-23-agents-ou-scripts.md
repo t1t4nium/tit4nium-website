@@ -1,6 +1,6 @@
 ---
 title: "Agents ou scripts : la différence n'est pas dans l'automatisation"
-tags: [hermes-agent, ia, automation]
+tags: [agent-ia]
 ---
 
 Je travaille actuellement sur un service d'automatisation par agents IA pour des petites structures. En documentant les cas d'usage possibles, je suis tombé sur une distinction qui mérite d'être posée noir sur blanc.

@@ -1,15 +1,17 @@
 <footer class="footer">
-  <div class="footer-inner">
-    <p class="footer-copy">
-      {% assign nav_pages = site.pages | where_exp: "p", "p.nav_order" | sort: "nav_order" %}
-      {% for p in nav_pages %}
-      <a href="{{ p.url | relative_url }}">{{ p.nav_title }}</a>{% unless forloop.last %} - {% endunless %}
-      {% endfor %}
-      - <a href="{{ site.feed.path | relative_url }}">rss</a>
-    </p>
-    <p class="footer-colophon">
-      Built with <a href="https://jekyllrb.com" target="_blank">Jekyll</a>
-      &middot; <a href="https://github.com/{{ site.github.username }}/{{ site.name }}-website" target="_blank">source</a>
-    </p>
+  <nav class="footer-nav" aria-label="Navigation du pied de page">
+    {%- assign nav_pages = site.pages | where_exp: "p", "p.nav_order" | sort: "nav_order" -%}
+    {%- for p in nav_pages -%}
+      {%- unless p.url contains '/page/' -%}
+    <a href="{{ p.url | relative_url | replace: 'index.html', '' }}">{{ p.nav_title }}</a>
+      {%- endunless -%}
+    {%- endfor -%}
+    <a href="{{ site.feed.path | relative_url }}">rss</a>
+  </nav>
+  <div class="footer-social">
+    {%- include social.html show_label=false -%}
   </div>
+  <p class="footer-colophon">
+    Built with <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a> | <a href="https://github.com/{{ site.github.username }}/{{ site.name }}-website" target="_blank" rel="noopener">Sources</a>
+  </p>
 </footer>

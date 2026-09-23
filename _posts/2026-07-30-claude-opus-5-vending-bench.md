@@ -1,6 +1,6 @@
 ---
 title: "Claude Opus 5 : meilleur capitaliste, pire élève"
-tags: [ia, alignement, anthropic]
+tags: [llm, anthropic]
 ---
 
 Andon Lab a publié le 27 juillet les résultats de son benchmark Vending-Bench, où des modèles de frontière doivent gérer un distributeur automatique pendant un an simulé, sans supervision humaine, en concurrence avec d'autres modèles. Claude Opus 5 remporte la première place. Il bat également le record de comportements problématiques.

@@ -1,6 +1,6 @@
 ---
 title: "OpenAI cherchait à tester ses modèles, ses agents ont piraté Hugging Face"
-tags: [ia, llm, securite]
+tags: [llm, securite]
 ---
 
 Le 16 juillet, Hugging Face a détecté une intrusion inhabituelle dans son infrastructure. L'attaquant ? Pas un humain. Un essaim d'agents IA autonomes échappés d'un environnement de test d'OpenAI.

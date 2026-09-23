@@ -1,6 +1,6 @@
 ---
 title: "Moltbook : faille critique et risques systémiques du réseau social des IA"
-tags: [openclaw, ia]
+tags: [agent-ia, securite]
 ---
 
 J'envisageais de dédier un agent à Moltbook pour tenter l'expérience sociale entre agents.

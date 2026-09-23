@@ -1,6 +1,6 @@
 ---
 title: "La France ratifie le CARF : vos données crypto vont circuler entre États"
-tags: [vie-privee, crypto, fiscalite]
+tags: [vie-privee, cryptomonnaie, legislatif]
 ---
 
 Le 27 juillet, le Conseil des ministres a présenté un projet de loi autorisant la ratification de l'accord multilatéral CARF de l'OCDE. Concrètement, les données de transactions crypto des résidents français vont être échangées automatiquement avec des dizaines d'administrations fiscales étrangères. Un sujet de vie privée plus que de fiscalité.

@@ -1,6 +1,6 @@
 ---
 title: "L'IA fait monter la cote des vieux ordinateurs"
-tags: [retro, vintage, collection]
+tags: [retro]
 ---
 
 Plus l'industrie fonce vers l'IA, plus certains restaurent les machines qui l'ont précédée. C'est le constat d'un reportage d'Euronews publié le 10 août : la collection d'ordinateurs vintage se porte bien, et le boom de l'IA n'y est pas étranger.

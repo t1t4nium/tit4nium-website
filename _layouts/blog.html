@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<section class="blog">
+  <ol class="post-list">
+    {%- for post in paginator.posts -%}
+    <li class="row">
+      <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" | upcase }}</time>
+      <a href="{{ post.url | relative_url }}" class="title">{{ post.title }}</a>
+      {%- if post.tags -%}
+      <a href="/blog/tag/{{ post.tags | first | slugify }}/" class="tag">{{ post.tags | first }}</a>
+      {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ol>
+
+  {% if paginator.total_pages > 1 %}
+  <nav class="pager" aria-label="Pagination">
+    <div class="pager-side">
+      {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}" class="pager-link" rel="prev">plus récents</a>
+      {% else %}
+      <span class="pager-link is-disabled">plus récents</span>
+      {% endif %}
+    </div>
+    <span class="pager-info">page {{ paginator.page }} / {{ paginator.total_pages }}</span>
+    <div class="pager-side pager-side-next">
+      {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}" class="pager-link" rel="next">plus anciens</a>
+      {% else %}
+      <span class="pager-link is-disabled">plus anciens</span>
+      {% endif %}
+    </div>
+  </nav>
+  {% endif %}
+</section>

@@ -1,6 +1,6 @@
 ---
 title: "Debian 11 Bullseye : dernier mois de support LTS, il faut migrer"
-tags: [debian, lts, migration]
+tags: [debian, mise-a-jour]
 ---
 
 Debian 11, alias bullseye, sorti le 14 août 2021, voit son support LTS s'arrêter

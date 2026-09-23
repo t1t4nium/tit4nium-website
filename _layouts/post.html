@@ -2,26 +2,31 @@
 layout: default
 ---
 <article class="post">
-  <header class="post-header">
-    <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %B %Y" }}</time>
-    <h1 class="post-title">{{ page.title }}</h1>
+  <div class="post-meta">
+    <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" | upcase }}</time>
     {% if page.tags %}
-    <div class="post-tags">
-      {% for tag in page.tags %}
-      <a href="{% link tags.md %}#{{ tag }}" class="tag">{{ tag }}</a>
-      {% endfor %}
-    </div>
+    {% for tag in page.tags %}
+    <a href="/blog/tag/{{ tag | slugify }}/" class="tag">{{ tag }}</a>
+    {% endfor %}
     {% endif %}
-  </header>
+  </div>
+
+  <h1 class="post-title">{{ page.title }}</h1>
+
   <div class="post-content">
     {{ content }}
   </div>
-  <footer class="post-footer">
-    {% if page.previous %}
-    <a href="{{ page.previous.url | relative_url }}" class="post-nav prev">&larr; {{ page.previous.title }}</a>
-    {% endif %}
+
+  <nav class="post-nav" aria-label="Navigation entre les articles">
     {% if page.next %}
-    <a href="{{ page.next.url | relative_url }}" class="post-nav next">{{ page.next.title }} &rarr;</a>
+    <a href="{{ page.next.url | relative_url }}" class="post-nav-link" rel="next"><span class="post-nav-kicker">plus récent</span>{{ page.next.title }}</a>
+    {% else %}
+    <a href="{{ '/blog/' | relative_url }}" class="post-nav-link"><span class="post-nav-kicker">index</span>Retour au blog</a>
     {% endif %}
-  </footer>
+    {% if page.previous %}
+    <a href="{{ page.previous.url | relative_url }}" class="post-nav-link post-nav-link-next" rel="prev"><span class="post-nav-kicker">plus ancien</span>{{ page.previous.title }}</a>
+    {% else %}
+    <a href="{{ '/blog/' | relative_url }}" class="post-nav-link post-nav-link-next"><span class="post-nav-kicker">index</span>Retour au blog</a>
+    {% endif %}
+  </nav>
 </article>

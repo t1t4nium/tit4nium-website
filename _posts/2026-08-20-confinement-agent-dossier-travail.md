@@ -1,6 +1,6 @@
 ---
 title: "Confinement d'un agent autonome : le restreindre à un dossier de travail"
-tags: [hermes, securite]
+tags: [hermes-agent, securite]
 ---
 
 Un agent IA autonome a, par défaut, accès à tout ce que l'utilisateur peut lire et écrire sur la machine. Pour une installation desktop, c'est beaucoup : l'agent peut toucher à des fichiers qui n'ont rien à voir avec la tâche demandée. J'ai passé la session du 20 août à restreindre Hermes Agent à un dossier de travail précis, et à comprendre ce qu'un tel confinement couvre réellement.

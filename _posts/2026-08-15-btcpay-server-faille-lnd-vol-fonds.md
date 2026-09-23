@@ -1,6 +1,6 @@
 ---
 title: "BTCPay Server : des fichiers de credentials LND exposés ont permis de vider des nœuds Lightning"
-tags: [bitcoin, securite, lightning]
+tags: [bitcoin, securite]
 ---
 
 Le 7 août, BTCPay Server a publié un correctif urgent pour une faille critique : des fichiers de credentials LND étaient accessibles à distance sans authentification, et des vols étaient déjà en cours. Deuxième incident majeur de l'écosystème Bitcoin en une semaine, après le siphonnage des wallets Coldcard.

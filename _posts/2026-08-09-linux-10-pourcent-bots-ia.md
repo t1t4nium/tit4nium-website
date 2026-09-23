@@ -1,6 +1,6 @@
 ---
 title: "Linux à 10 % de parts de marché ? C'était surtout des bots IA"
-tags: [linux, libre, bots]
+tags: [linux, open-source]
 ---
 
 Le 9 août 2026, un post Reddit et un fil Hacker News annonçaient la nouvelle tant attendue : Linux aurait dépassé les 10 % de parts de marché sur desktop en Amérique du Nord. Le screenshot de StatCounter montrait Linux à 10,65 %, contre 3,56 % en mai. En deux mois, la part aurait presque triplé. Trop beau pour être vrai, et pour cause : c'était en grande partie une illusion statistique.

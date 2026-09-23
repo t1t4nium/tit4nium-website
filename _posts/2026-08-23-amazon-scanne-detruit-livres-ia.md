@@ -1,6 +1,6 @@
 ---
 title: "Livres rares suivis par AirTag : ils finissent dans un entrepôt Amazon qui les détruit"
-tags: [ia, donnees, insolite]
+tags: [llm, vie-privee]
 ---
 
 Un journaliste a caché une balise de localisation dans un envoi de livres rares pour savoir qui les achetait en masse. La commande est partie de l'autre bout des États-Unis et s'est arrêtée dans un entrepôt Amazon de Las Vegas, où des employés scannent les livres et les détruisent au passage pour alimenter l'entraînement de modèles d'IA. L'enquête de 404 Media vaut le détour, et le logo de l'équipe qui s'en charge est une pépite.

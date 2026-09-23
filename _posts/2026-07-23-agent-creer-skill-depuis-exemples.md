@@ -1,6 +1,6 @@
 ---
 title: "Demander à un agent de créer une skill à partir d'exemples d'usage"
-tags: [hermes-agent, skill, workflow]
+tags: [hermes-agent]
 ---
 
 Petit cas d'école pour couvrir la création de skill par l'agent.

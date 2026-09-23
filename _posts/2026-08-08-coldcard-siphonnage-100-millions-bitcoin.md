@@ -1,6 +1,6 @@
 ---
 title: "Coldcard : plus de 100 millions de dollars de Bitcoin siphonnés depuis des wallets matériels"
-tags: [bitcoin, securite, wallet]
+tags: [bitcoin, securite]
 ---
 
 Depuis le 30 juillet, des adresses générées par les portefeuilles matériels Coldcard sont vidées en série. Au 3 août, les analystes de Galaxy Research estimaient à environ 1 800 bitcoins (plus de 100 millions de dollars) le montant déjà déplacé, réparti sur plus de 5 200 adresses. L'affaire n'est pas terminée et pose une question dérangeante pour tous les utilisateurs de cold storage.

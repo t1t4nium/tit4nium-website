@@ -1,6 +1,6 @@
 ---
 title: "FreeBSD comme plateforme de reverse engineering : la communauté s'y met"
-tags: [freebsd, reverse-engineering, ports]
+tags: [freebsd]
 ---
 
 Un fil des forums FreeBSD, ouvert le 20 juillet 2026 dans la section

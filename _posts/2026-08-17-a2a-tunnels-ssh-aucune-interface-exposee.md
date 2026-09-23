@@ -1,6 +1,6 @@
 ---
 title: "Relier deux agents IA par tunnels SSH : aucune interface exposée"
-tags: [hermes, a2a, securite]
+tags: [hermes-agent, securite]
 ---
 
 En août, j'ai connecté mon agent Hermes de supervision à un agent distant sur un VPS via le protocole A2A (Agent2Agent, Linux Foundation). Le point qui m'a occupé, ce n'était pas le protocole lui-même, mais son exposition : aucune interface d'administration ne devait être accessible depuis Internet. Voici comment, sans ouvrir un seul port.

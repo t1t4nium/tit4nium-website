@@ -1,32 +1,35 @@
 ---
-layout: page
+layout: default
 nav_title: tags
-nav_order: 3
-title: /tags
+nav_order: 2
+title: Tags
 permalink: /blog/tags/
-description: "Archives par thème technique : agent IA, Linux, open source, privacy."
+description: "Index des tags du blog, triés par nombre de posts."
 ---
 
 <section class="tags-page">
+  <header class="page-head">
+    <h1 class="page-title">Tags</h1>
+  </header>
+
+  {% assign all_tags = site.posts | map: "tags" | join: "," | split: "," | uniq | sort %}
+  {% assign max_count = 0 %}
+  {% for tag in all_tags %}
+    {% assign count = site.posts | where_exp: "p", "p.tags contains tag" | size %}
+    {% if count > max_count %}{% assign max_count = count %}{% endif %}
+  {% endfor %}
+
   <div class="tag-cloud">
-    {% assign all_tags = site.posts | map: "tags" | join: "," | split: "," | uniq | sort %}
-    {% for tag in all_tags %}
-    <a href="#{{ tag }}" class="tag">{{ tag }}</a>
+    {% for level in (1..max_count) reversed %}
+      {% for tag in all_tags %}
+        {% assign count = site.posts | where_exp: "p", "p.tags contains tag" | size %}
+        {% if count == level %}
+        <a href="/blog/tag/{{ tag | slugify }}/" class="tag">
+          {{ tag }}
+          <span class="tag-count">{{ count }}</span>
+        </a>
+        {% endif %}
+      {% endfor %}
     {% endfor %}
   </div>
-
-  {% for tag in all_tags %}
-  <div class="tag-group">
-    <h2 id="{{ tag }}">#{{ tag }}</h2>
-    <ol class="post-list">
-      {% assign tagged = site.posts | where_exp: "p", "p.tags contains tag" | sort: "date" | reverse %}
-      {% for post in tagged %}
-      <li class="post-item">
-        <time class="post-item-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time>
-        <a href="{{ post.url | relative_url }}" class="post-item-title">{{ post.title }}</a>
-      </li>
-      {% endfor %}
-    </ol>
-  </div>
-  {% endfor %}
 </section>

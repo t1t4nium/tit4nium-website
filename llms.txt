@@ -1,0 +1,32 @@
+---
+layout: none
+permalink: /llms.txt
+---
+# {{ site.name }} | {{ site.tagline }}
+
+{{ site.description }}
+
+## Blog
+
+- [Index du blog](https://tit4nium.fr/blog/)
+- [Index des tags](https://tit4nium.fr/blog/tags/)
+- [Flux RSS](https://tit4nium.fr/blog/rss.xml)
+
+## Posts
+
+{% assign sorted = site.posts | sort: 'date' | reverse %}
+| Date | Titre + lien |
+| ---- | ------------ |
+{% for post in sorted -%}
+| {{ post.date | date: '%Y-%m-%d' }} | [{{ post.title }}]({{ post.url | absolute_url }}) |
+{% endfor %}
+
+## Réseaux sociaux
+
+{% for social in site.social_links %}
+- [{{ social.label }}]({{ social.url }})
+{%- endfor %}
+
+## Sponsor
+
+Soutenez les contributions de tit4nium en devenant [sponsor]({{ site.gh_sponsor }}).

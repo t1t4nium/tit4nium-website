@@ -1,6 +1,6 @@
 ---
 title: "AI Kill Switch Act : les USA veulent un arrêt d'urgence pour les modèles"
-tags: [securite, ia, regulation]
+tags: [securite, llm, legislatif]
 ---
 
 Un groupe de parlementaires américains prépare une loi qui obligerait les entreprises d'IA à pouvoir couper ou ralentir leurs modèles sur ordre du Department of Homeland Security. L'AI Kill Switch Act est une réponse directe à [l'incident OpenAI/Hugging Face]({% link _posts/2026-07-28-agent-openai-pirate-hugging-face.md %}) du 16 juillet.

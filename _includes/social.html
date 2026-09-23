@@ -1,0 +1,6 @@
+{%- for social in site.social_links -%}
+<a href="{{ social.url }}" class="social" rel="me noopener" target="_blank" aria-label="{{ social.label }}">
+  <img src="{{ '/assets/icons/' | append: social.icon | relative_url }}" alt="{{ social.label }}" width="18" height="18" class="social-icon">
+  {%- if include.show_label -%}<span class="social-label">{{ social.label }}</span>{%- endif -%}
+</a>
+{%- endfor -%}

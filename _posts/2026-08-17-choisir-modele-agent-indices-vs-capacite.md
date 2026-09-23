@@ -1,6 +1,6 @@
 ---
 title: "Choisir un modèle pour ses agents : ce que les indices de coding ne montrent pas"
-tags: [llm, agentique, benchmark]
+tags: [llm, agent-ia, benchmark]
 ---
 
 Depuis que j'ai basculé de DeepSeek V4 Flash 0731 vers V4 Pro, j'ai une impression constante : Pro sort de bien meilleurs résultats en coding et en agentique que Flash. Pourtant, sur les indices agrégés, ils sont quasi à égalité. Le 17 août, j'ai creusé pourquoi, et la réponse vaut pour tout choix de modèle pour des agents. Résumé de la méthode et de la leçon.

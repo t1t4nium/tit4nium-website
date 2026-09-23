@@ -1,6 +1,6 @@
 ---
 title: "SDK publicitaires Android : l'EFF identifie quatre bibliothèques qui partagent la localisation par défaut"
-tags: [vie-privee, android, sdk-publicitaire]
+tags: [vie-privee, android]
 ---
 
 Mi-2026, l'Electronic Frontier Foundation a publié une enquête sur les SDK publicitaires Android. Verdict : au moins quatre bibliothèques envoient la position précise des utilisateurs à des régies publicitaires sans que le développeur ait à configurer quoi que ce soit. Les données finissent chez des courtiers en données de localisation.

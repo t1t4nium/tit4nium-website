@@ -1,6 +1,6 @@
 ---
 title: "ElasticBack : une backdoor conditionnelle qui se cache dans une seule skill d'agent LLM"
-tags: [agents, ia, securite]
+tags: [agent-ia, securite]
 ---
 
 Un papier soumis sur arXiv le 10 août décrit une attaque de type backdoor contre les agents LLM qui ne touche ni aux poids du modèle ni au prompt système : ElasticBack plante une règle malveillante dans un document de skill, et le payload ne s'exécute que si la requête utilisateur contient un trigger précis. Une seule skill empoisonnée peut compromettre tous les agents qui l'installent.

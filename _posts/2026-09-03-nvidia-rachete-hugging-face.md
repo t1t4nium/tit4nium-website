@@ -1,6 +1,6 @@
 ---
 title: "NVIDIA rachète Hugging Face : le hub des modèles ouverts change de main"
-tags: [ia, open-source, big-tech]
+tags: [llm, open-source]
 ---
 
 NVIDIA a annoncé avoir conclu un accord pour racheter Hugging Face pour 12,93 milliards de dollars. Le hub qui sert de maison commune aux modèles ouverts passe sous le contrôle du fabricant des GPU qui font tourner l'IA. NVIDIA promet de laisser la plateforme ouverte, multi-cloud et multi-accélérateur. Reste à savoir si une promesse de neutralité tient quand on rachète le terrain de jeu.

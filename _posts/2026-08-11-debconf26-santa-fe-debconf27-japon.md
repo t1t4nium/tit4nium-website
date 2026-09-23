@@ -1,6 +1,6 @@
 ---
 title: "DebConf26 clôturée à Santa Fe, DebConf27 au Japon en septembre 2027"
-tags: [debian, debconf, conference]
+tags: [debian]
 ---
 
 L'annonce officielle est tombée le 7 août sur debian.org : DebConf26, qui s'est tenue à Santa Fe en Argentine, est terminée, et la prochaine édition est déjà annoncée. DebConf27 aura lieu à Asahikawa, sur l'île d'Hokkaido, au Japon, du 5 au 11 septembre 2027. C'est la deuxième fois que la conférence des développeurs et contributeurs Debian se déroulera au Japon, et la première à Hokkaido.

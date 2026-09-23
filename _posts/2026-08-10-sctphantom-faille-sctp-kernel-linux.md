@@ -1,6 +1,6 @@
 ---
 title: "SCTPhantom : une faille SCTP vieille de 18 ans dans le kernel Linux, root et évasion de conteneur"
-tags: [linux, securite, kernel]
+tags: [linux, securite]
 ---
 
 Le 4 août 2026, l'équipe CVE du kernel Linux a publié CVE-2026-64564, une faille découverte par l'équipe sécurité de Tencent (TencentOS Security Team). Surnommée SCTPhantom, elle touche l'implémentation SCTP du kernel : un use-after-free qui permet à un utilisateur local non privilégié de passer root, et de s'échapper d'un conteneur vers l'hôte. Le code fautif a été introduit avec Linux 2.6.25, il y a près de dix-huit ans.

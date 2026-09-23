@@ -1,6 +1,6 @@
 ---
 title: "Flash bâcle, Pro coûte cher : l'angle mort des benchmarks"
-tags: [llm, benchmark, hermes]
+tags: [llm, benchmark, hermes-agent]
 ---
 
 Je fais tourner un agent IA au quotidien. Une partie du travail est de

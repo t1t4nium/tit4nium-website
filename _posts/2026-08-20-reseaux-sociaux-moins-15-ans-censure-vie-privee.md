@@ -1,6 +1,6 @@
 ---
 title: "Réseaux sociaux interdits aux moins de 15 ans : le Conseil constitutionnel censure, au nom de la vie privée"
-tags: [vie-privee]
+tags: [vie-privee, legislatif]
 ---
 
 Le 14 août, le Conseil constitutionnel a censuré l'article 1er de la loi qui interdisait l'accès des réseaux sociaux aux mineurs de moins de 15 ans (décision n° 2026-911 DC). Deux motifs, et l'un d'eux parle directement de vie privée : la loi obligeait toute personne, même majeure, à prouver son âge, sans définir les garanties de cette vérification.

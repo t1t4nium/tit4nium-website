@@ -1,6 +1,6 @@
 ---
 title: "Faire confiance à un agent : les leçons de trois mois de production"
-tags: [hermes-agent, agent, production]
+tags: [hermes-agent]
 ---
 
 Ça fait trois mois que je fais tourner Hermes Agent quotidiennement en mode autonome. Cron jobs, pipelines de veille, génération de contenu, surveillance de marché. Voici ce que j'ai appris sur la confiance qu'on peut accorder à un agent.
