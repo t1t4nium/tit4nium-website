@@ -455,6 +455,11 @@ a {
 .post-content table {
   width: 100%;
   border-collapse: collapse;
+}
+
+.post-content .table-scroll {
+  overflow-x: auto;
+  max-width: 100%;
   margin: 1.5rem 0;
 }
 

@@ -21,4 +21,15 @@
       });
     });
   }
+
+  document.querySelectorAll('.post-content table').forEach(function (table) {
+    var parent = table.parentNode;
+    if (parent && parent.classList && parent.classList.contains('table-scroll')) {
+      return;
+    }
+    var wrapper = document.createElement('div');
+    wrapper.className = 'table-scroll';
+    parent.insertBefore(wrapper, table);
+    wrapper.appendChild(table);
+  });
 })();
