@@ -2,6 +2,9 @@
 layout: default
 ---
 <section class="blog">
+  <header class="page-head">
+    <h1 class="page-title">{{ page.title }}</h1>
+  </header>
   <ol class="post-list">
     {%- for post in paginator.posts -%}
     <li class="row">

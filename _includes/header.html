@@ -9,7 +9,7 @@
       <span></span><span></span><span></span>
     </label>
     <nav class="nav">
-      {%- assign nav_pages = site.pages | where_exp: "p", "p.nav_order" | sort: "nav_order" -%}
+      {%- assign nav_pages = site.pages | where_exp: 'p', 'p.nav_order' | sort: 'nav_order' -%}
       {%- for p in nav_pages -%}
         {%- unless p.url contains '/page/' -%}
       <a href="{{ p.url | relative_url | replace: 'index.html', '' }}"{% if page.url == p.url %} class="on"{% endif %}>{{ p.nav_title }}</a>
