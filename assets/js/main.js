@@ -5,12 +5,12 @@
   var themeToggle = document.querySelector('.theme-toggle');
   if (themeToggle) {
     themeToggle.addEventListener('click', function () {
-      var current = root.dataset.theme === 'dark' ? 'dark' : 'light';
-      var next = current === 'dark' ? 'light' : 'dark';
+      var next = root.dataset.theme === 'dark' ? 'light' : 'dark';
       root.dataset.theme = next;
       localStorage.setItem('theme', next);
       themeToggle.setAttribute('aria-pressed', String(next === 'dark'));
     });
+    themeToggle.setAttribute('aria-pressed', String(root.dataset.theme === 'dark'));
   }
 
   var navToggle = document.getElementById('nav-toggle');

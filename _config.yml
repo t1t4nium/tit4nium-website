@@ -112,12 +112,9 @@ social_links:
   - platform: github
     url: *gh_url
     label: GitHub
-    icon: github.svg
   - platform: mastodon
     url: *masto_url
     label: Mastodon
-    icon: mastodon.svg
   - platform: twitter
     url: *x_url
     label: X (Twitter)
-    icon: twitter.svg

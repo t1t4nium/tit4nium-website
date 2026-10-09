@@ -4,8 +4,15 @@
   <script>
     (function () {
       var stored = localStorage.getItem('theme');
-      var dark = stored ? stored === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
-      document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+      var theme;
+      if (stored === 'dark' || stored === 'light') {
+        theme = stored;
+      } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        theme = 'dark';
+      } else {
+        theme = 'light';
+      }
+      document.documentElement.dataset.theme = theme;
     })();
   </script>
   {% seo %}
@@ -17,6 +24,6 @@
   <link rel="icon" type="image/jpeg" href="{% link assets/images/avatar.jpeg %}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Space+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
   <link rel="stylesheet" href="{% link assets/css/style.css %}">
 </head>
