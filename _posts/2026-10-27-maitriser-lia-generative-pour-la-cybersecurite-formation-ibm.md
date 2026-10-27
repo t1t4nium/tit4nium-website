@@ -182,31 +182,53 @@ Les démonstrations du cours collent un e-mail ou un bout de code et demandent u
 
 Analyser un code suspect. Le modèle reçoit un rôle, trois questions numérotées et une sortie attendue.
 
-```
-Tu es un analyste en réponse aux incidents. Le code Python ci-dessous a été récupéré sur un poste compromis. Analyse-le et réponds en trois parties numérotées :
+````
+Tu es un analyste en réponse aux incidents. Le code Python ci-dessous a été
+récupéré sur un poste compromis.
+
+Analyse-le et réponds en trois parties numérotées :
 1. le comportement malveillant exact du programme ;
 2. les actifs qu'il peut compromettre (fichiers, comptes, données) ;
 3. les indicateurs de compromission (IoC) qu'il laisse derrière lui.
 Termine par la liste des mesures d'atténuation recommandées.
 
+```python
 <coller le code>
 ```
+````
 
 Trier des alertes. La demande fixe une échelle de priorité, impose une justification, ordonne les étapes et précise un livrable.
 
 ```
-Voici cinq alertes remontées par notre SIEM. Pour chacune, attribue une priorité parmi Critique, Élevé, Moyen ou Faible, et justifie ton choix en une phrase. Classe-les ensuite de la plus prioritaire à la moins prioritaire. Rédige enfin un e-mail destiné à l'administrateur système pour la seule alerte la plus critique, en précisant l'action immédiate à mener.
+Voici cinq alertes remontées par notre SIEM. Pour chacune, attribue une priorité
+parmi Critique, Élevé, Moyen ou Faible, et justifie ton choix en une phrase.
+Classe-les ensuite de la plus prioritaire à la moins prioritaire. Rédige enfin
+un e-mail destiné à l'administrateur système pour la seule alerte la plus
+critique, en précisant l'action immédiate à mener.
 
-<coller les cinq alertes>
+Les alertes :
+- <alerte 1>
+- <alerte 2>
+- <alerte 3>
+- <alerte 4>
+- <alerte 5>
 ```
 
 Rédiger un rapport d'incident et un playbook. Le rôle est posé, la structure du rapport est imposée, et le playbook est borné en nombre d'étapes.
 
-```
-Tu es un analyste de réponse aux incidents. À partir du scénario d'attaque ci-dessous, rédige un rapport d'incident au format standard, avec les sections : titre, résumé, chronologie, impact, actions de réponse, leçons apprises et recommandations. Rédige ensuite un playbook de réponse à ce type d'incident, en dix étapes maximum, classées par ordre chronologique.
+````
+Tu es un analyste de réponse aux incidents. À partir du scénario d'attaque ci-dessous,
+rédige un rapport d'incident au format standard, avec les sections : titre, résumé,
+chronologie, impact, actions de réponse, leçons apprises et recommandations.
+Rédige ensuite un playbook de réponse à ce type d'incident, en dix étapes maximum,
+classées par ordre chronologique.
 
+Scénario d'attaque :
+
+```
 <coller le scénario>
 ```
+````
 
 La différence avec les prompts naïfs tient en trois points : un rôle qui oriente la réponse, une demande découpée en étapes, et un format de sortie précis. C'est le prompt engineering appliqué à la cybersécurité.
 
