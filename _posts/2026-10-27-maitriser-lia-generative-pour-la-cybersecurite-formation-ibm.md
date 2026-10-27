@@ -116,7 +116,7 @@ Un chiffre m'a marqué, tiré du rapport [Cost of a Data Breach Report 2023](htt
 
 Le rapport identifie les deux vecteurs principaux : le phishing et le compromis d'identifiants. Il note aussi que 82 % des violations concernaient des données stockées dans le cloud.
 
-La donnée qui intéresse notre sujet : les organisations qui utilisent largement l'IA de sécurité et l'automatisation économisent en moyenne 1,76 million de dollars par violation.
+La donnée qui intéresse notre sujet : l'IA et l'automatisation réduisent le coût d'une violation de 1,76 million de dollars en moyenne.
 
 Le cours en tire des recommandations simples :
 - déployer les bons outils,
